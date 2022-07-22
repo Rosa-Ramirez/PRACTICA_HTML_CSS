@@ -1,0 +1,83 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    background-color: aliceblue;
+}
+.color {
+    border-radius: 20%;
+}
+#edad{
+    width: 35px;
+}
+@font-face {
+    /* font-family: "Edu VIC WA NT Beginner"; */
+    font-family: "EB Garamond";
+    /* src: url(./fonts/Edu_VIC_WA_NT_Beginner/EduVICWANTBeginner-VariableFont_wght.ttf); */
+    src: url(./fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+body {
+    /* text-align: center; */
+    background-image: url(./images/Paisaje.jpg);
+    font-family: "EB Garamond";
+}
+#search{
+    color: white;
+    /* text-align-last: right; */
+    margin-left: 1600px;
+    margin-top: 10px;
+}
+#tel{
+    margin-left: 20px;
+}
+.password{
+    margin-left: 63px;
+}
+.confirm_password{
+    margin-left: 79px;
+}
+#email{
+    margin-left: 100px;
+}
+#date {
+    margin-left: 18px;
+}
+#edad{
+    margin-left: 110px;
+}
+#pagina {
+    margin-left: 90px;
+}
+.enviar:hover{
+    opacity: 60%;
+}
+.enviar{
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 25px;
+}
+input:hover{
+    color: rgb(117, 128, 128);
+}
+iframe{
+    margin-left: 15px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 0%;
+    background-color: rgb(252, 250, 250);
+    width: 400px;
+    height: 800px;
+    
+    border: 2px solid black;
+}

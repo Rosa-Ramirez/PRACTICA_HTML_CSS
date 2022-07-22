@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Pagina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        
+        <nav>
+            <h1 class="title">Formulario de admisión</h1>
+            <label for="search" id="search">
+                <span>Buscador</span>
+                <input type="search" name="search">
+                <button class="button">Buscar</button>
+            </label>
+        </nav>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3VLbZiHMQ5FWq2wDaKQmFQ?utm_source=generator" width="20%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </header>
+        
     
+    <div class="container">
+        
+    <form action="">
+        <!-- <div class="form"> -->
+        <label for="color">
+            <span>Seleccione un color</span>
+            <input type="color" name="color" class="color">
+        </label><br><br>
+        <label for="radio" class="estadoCivil">
+            <p> Estado Civil:</p>
+            <input type="radio" name="estadoCivil" value="casado" required>Casado(a)<br>
+            <input type="radio" name="estadoCivil" value="soltero">Soltero(a)<br>
+            <input type="radio" name="estadoCivil" value="divorciado">Divorciado(a)<br>
+            <input type="radio" name="estadoCivil" value="viudo">Viudo(a)
+        </label><br><br>
+            <span>Ingrese su número de teléfono</span>
+            <input type="tel" name="tel" required id="tel">
+        <br><br>
+        <label for="password">
+            <span>Ingrese una contraseña</span>
+            <input type="password" name="password" placeholder="Escribe aquí" required class="password"><br><br>
+            <span>Repita la contraseña</span>
+            <input type="password" name="password" placeholder="Escribe aquí" required class="confirm_password">
+        </label><br><br>
+            <span>Ingrese su e-mail</span>
+            <input type="email" name="email" id="email">
+        <br><br>
+            <span>Ingrese su fecha de nacimiento</span>
+            <input type="date" name="date" id="date"><br><br>
+        <label for="edad">
+            <span>Ingrese su edad</span>
+            <input type="number" name="edad" id="edad">
+        </label><br><br>
+        <label for="range">
+            <span>¿Cuál es su nivel en programación? (min. 0, max. 10) </span>
+            <input type="range" name="range" id="range" min="0" max="10">
+        </label><br><br>
+        <label for="pagina">
+            <span>Si cuenta con algun blog o página web, ingrese la url aquí:</span>
+            <input type="url" name="pagina" id="pagina" placeholder="ej.; https://mi-blog.com">
+        </label><br><br>
+        <label for="dpi">
+            <span>Por favor, suba su Documento Personal de Identificación (DPI)</span>
+            <input type="file" name="dpi" id="dpi">
+        </label><br><br>
+        <label for="checkbox">
+            <p>¿Acepta los términos de condidición?</p>
+            <span>Aceptar</span>
+            <input type="checkbox" required><br>
+        </label><br><br>
+        <label for="reset">
+            <span>¿Enviar o restablecer formulario</span>
+            <input type="reset" name="reset" id="reset">
+        </label>
+        <label for="submit">
+            <input type="submit">
+        </label><br><br>
+        <input type="image" class="enviar" alt="enviar" src="./images/enviar.png">
+    </form>
+
+</div>
 </body>
 </html>
